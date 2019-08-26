@@ -1,0 +1,6 @@
+import urllib.parse
+url = 'https://macaddress.io/ MAC address lookup API'
+tpl = urllib.parse.urlparse(url)
+print (tpl)
+print ('Name =',tpl.name)
+print ('scheme=',tpl.scheme)
