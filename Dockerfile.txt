@@ -1,0 +1,13 @@
+# Pull base image 
+FROM python:3.7-alpine  
+
+
+MAINTAINER rachna tendolkar <rkharetendolkar@gmail.com>
+
+COPY mac_vendor.py /tmp/mac_vendor/
+COPY docker_helper.sh /tmp/docker_helper.sh 
+
+
+
+
+
